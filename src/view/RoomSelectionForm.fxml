@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="roomSelectionContext" prefHeight="462.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RoomSelectionFormController">
+   <children>
+      <AnchorPane opacity="0.3" prefHeight="462.0" prefWidth="394.0" style="-fx-background-color: black;" />
+      <Label fx:id="lblRoomType" alignment="CENTER" layoutX="101.0" layoutY="14.0" prefHeight="41.0" prefWidth="192.0" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="26.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tblRoom" layoutX="22.0" layoutY="70.0" prefHeight="255.0" prefWidth="349.0" style="-fx-background-color: white;">
+        <columns>
+          <TableColumn fx:id="colRoomNumber" prefWidth="128.0" text="Room Number" />
+          <TableColumn fx:id="colSelect" prefWidth="113.0" text="Select" />
+            <TableColumn fx:id="colAvailability" prefWidth="107.0" text="Availability" />
+        </columns>
+      </TableView>
+      <JFXButton fx:id="loadButton" alignment="CENTER" buttonType="RAISED" layoutX="15.0" layoutY="406.0" onAction="#setTitleAndLoad" prefHeight="41.0" prefWidth="82.0" style="-fx-background-color: #ff5500;" text="Load" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="mealPlanButton" alignment="CENTER" buttonType="RAISED" layoutX="118.0" layoutY="406.0" onAction="#loadMealPlans" prefHeight="41.0" prefWidth="132.0" style="-fx-background-color: #ff5500;" text="Meal Plan" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="reserveButton" alignment="CENTER" buttonType="RAISED" layoutX="277.0" layoutY="406.0" onAction="#reserveRoom" prefHeight="41.0" prefWidth="95.0" style="-fx-background-color: #ff5500;" text="Reserve" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="19.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="23.0" layoutY="335.0" prefHeight="21.0" prefWidth="138.0" text="Selected Room*" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtSelectedRoom" focusColor="WHITE" layoutX="23.0" layoutY="360.0" prefHeight="31.0" prefWidth="85.0" style="-fx-background-color: white;">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </JFXTextField>
+   </children>
+</AnchorPane>

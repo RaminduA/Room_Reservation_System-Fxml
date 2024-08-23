@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mealSelectionContext" prefHeight="642.0" prefWidth="969.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MealPlanSelectionFormController">
+   <children>
+      <AnchorPane prefHeight="642.0" prefWidth="323.0" style="-fx-background-color: black;">
+         <children>
+            <ImageView fitHeight="642.0" fitWidth="323.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../assets/FrenchMeal.jpg" />
+               </image>
+            </ImageView>
+            <JFXButton buttonType="RAISED" layoutX="90.0" layoutY="553.0" onAction="#selectAndCloseWindow" prefHeight="44.0" prefWidth="143.0" style="-fx-background-color: black;" text="Select French" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="646.0" prefHeight="642.0" prefWidth="323.0" style="-fx-background-color: black;">
+         <children>
+            <ImageView fitHeight="642.0" fitWidth="323.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../assets/LocalMeal.jpg" />
+               </image>
+            </ImageView>
+            <JFXButton buttonType="RAISED" layoutX="90.0" layoutY="553.0" onAction="#selectAndCloseWindow" prefHeight="44.0" prefWidth="143.0" style="-fx-background-color: black;" text="Select Local" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="323.0" prefHeight="642.0" prefWidth="323.0" style="-fx-background-color: grey;">
+         <children>
+            <ImageView fitHeight="642.0" fitWidth="323.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../assets/ChineseMeal.jpg" />
+               </image>
+            </ImageView>
+            <JFXButton buttonType="RAISED" layoutX="90.0" layoutY="553.0" onAction="#selectAndCloseWindow" prefHeight="44.0" prefWidth="152.0" style="-fx-background-color: black;" text="Select Chinese" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <Label alignment="BOTTOM_RIGHT" layoutX="-3.0" layoutY="613.0" prefHeight="22.0" prefWidth="317.0" text="Copyright © 2021 Scorpion™ - All rights reserved" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="270.0" layoutY="37.0" opacity="0.66" prefHeight="50.0" prefWidth="431.0" style="-fx-background-color: grey;" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="42.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="269.0" layoutY="37.0" prefHeight="50.0" prefWidth="431.0" text="BLUE               HOTEL" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="42.0" />
+         </font>
+      </Label>
+      <Label layoutX="390.0" layoutY="37.0" prefHeight="50.0" prefWidth="152.0" text="OCEAN" textFill="#253f9a">
+         <font>
+            <Font name="Times New Roman Bold" size="42.0" />
+         </font>
+      </Label>
+      <Label layoutX="84.0" layoutY="3.0" prefHeight="27.0" prefWidth="107.0" text="+94 769 807 626 " textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="22.0" fitWidth="20.0" layoutX="60.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/TelephoneLogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="781.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/LinkedinLogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="820.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/TwitterLogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="859.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/InstagramLogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="895.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/FacebookLogo.png" />
+         </image>
+      </ImageView>
+      <JFXButton buttonType="RAISED" layoutX="148.0" layoutY="101.0" prefHeight="33.0" prefWidth="124.0" style="-fx-background-color: black;" text="HOME" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="281.0" layoutY="101.0" prefHeight="33.0" prefWidth="132.0" style="-fx-background-color: black;" text="ABOUT US" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="423.0" layoutY="101.0" prefHeight="33.0" prefWidth="132.0" style="-fx-background-color: black;" text="SERVICES" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="563.0" layoutY="101.0" prefHeight="33.0" prefWidth="132.0" style="-fx-background-color: black;" text="GALLERY" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="701.0" layoutY="101.0" prefHeight="33.0" prefWidth="132.0" style="-fx-background-color: black;" text="CONTACT US" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="642.0" prefWidth="969.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.IncomeReportsFormController">
+   <children>
+      <ImageView fitHeight="642.0" fitWidth="969.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/IncomeReport.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="285.0" layoutY="291.0" prefHeight="43.0" prefWidth="128.0" style="-fx-background-color: white;" text="ANNUAL">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="332.0" layoutY="327.0" prefHeight="43.0" prefWidth="114.0" style="-fx-background-color: white;" text="REPORT">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="338.0" layoutY="247.0" prefHeight="45.0" prefWidth="87.0" style="-fx-background-color: TRANSPARENT;" text="2021">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="734.0" layoutY="291.0" prefHeight="45.0" prefWidth="155.0" style="-fx-background-color: white;" text="MONTHLY">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="781.0" layoutY="327.0" prefHeight="43.0" prefWidth="114.0" style="-fx-background-color: white;" text="REPORT">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="787.0" layoutY="247.0" prefHeight="45.0" prefWidth="87.0" style="-fx-background-color: TRANSPARENT;" text="JULY">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="352.0" layoutY="69.0" opacity="0.42" prefHeight="15.0" prefWidth="99.0" style="-fx-background-color: #b6d2f1;" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="352.0" layoutY="69.0" prefHeight="15.0" prefWidth="99.0" text="BLUE               HOTEL" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="381.0" layoutY="69.0" prefHeight="15.0" prefWidth="36.0" text="OCEAN" textFill="#4d67c6">
+         <font>
+            <Font name="Times New Roman Bold" size="9.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="801.0" layoutY="69.0" opacity="0.42" prefHeight="15.0" prefWidth="99.0" style="-fx-background-color: #b6d2f1;" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="801.0" layoutY="69.0" prefHeight="15.0" prefWidth="99.0" text="BLUE               HOTEL" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="830.0" layoutY="69.0" prefHeight="15.0" prefWidth="36.0" text="OCEAN" textFill="#4d67c6">
+         <font>
+            <Font name="Times New Roman Bold" size="9.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="331.0" layoutY="567.0" prefHeight="31.0" prefWidth="114.0" style="-fx-background-color: #2F4EDD;" text="PRINT" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="780.0" layoutY="567.0" prefHeight="31.0" prefWidth="114.0" style="-fx-background-color: #A1191B;" text="PRINT" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

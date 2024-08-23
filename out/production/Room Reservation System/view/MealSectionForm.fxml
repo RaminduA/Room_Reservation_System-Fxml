@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mealSectionContext" prefHeight="642.0" prefWidth="969.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MealSectionFormController">
+   <children>
+      <AnchorPane prefHeight="642.0" prefWidth="323.0" style="-fx-background-color: black;">
+         <children>
+            <ImageView fitHeight="642.0" fitWidth="323.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../assets/FrenchMeal.jpg" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="37.0" layoutY="159.0" opacity="0.5" prefHeight="433.0" prefWidth="250.0" style="-fx-background-color: black;" />
+            <Label layoutX="55.0" layoutY="172.0" prefHeight="31.0" prefWidth="62.0" text="Meal ID" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField layoutX="145.0" layoutY="172.0" prefHeight="31.0" prefWidth="124.0" style="-fx-background-color: white;" />
+            <Label layoutX="55.0" layoutY="214.0" prefHeight="31.0" prefWidth="75.0" text="Meal Price" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField layoutX="145.0" layoutY="214.0" prefHeight="31.0" prefWidth="124.0" style="-fx-background-color: white;" />
+            <JFXButton buttonType="RAISED" layoutX="105.0" layoutY="262.0" prefHeight="37.0" prefWidth="115.0" style="-fx-background-color: #ea0000;" text="Add" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="55.0" layoutY="491.0" prefHeight="31.0" prefWidth="75.0" text="Meal ID" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField layoutX="145.0" layoutY="491.0" prefHeight="31.0" prefWidth="124.0" style="-fx-background-color: white;" />
+            <JFXButton buttonType="RAISED" layoutX="105.0" layoutY="539.0" prefHeight="37.0" prefWidth="115.0" style="-fx-background-color: #ea0000;" text="Delete" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="55.0" layoutY="331.0" prefHeight="31.0" prefWidth="62.0" text="Meal ID" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField layoutX="145.0" layoutY="331.0" prefHeight="31.0" prefWidth="124.0" style="-fx-background-color: white;" />
+            <Label layoutX="55.0" layoutY="373.0" prefHeight="31.0" prefWidth="75.0" text="Meal Price" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField layoutX="145.0" layoutY="373.0" prefHeight="31.0" prefWidth="124.0" style="-fx-background-color: white;" />
+            <JFXButton buttonType="RAISED" layoutX="105.0" layoutY="421.0" prefHeight="37.0" prefWidth="115.0" style="-fx-background-color: #ea0000;" text="Modify" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="646.0" prefHeight="642.0" prefWidth="323.0" style="-fx-background-color: black;">
+         <children>
+            <ImageView fitHeight="642.0" fitWidth="323.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../assets/LocalMeal.jpg" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="37.0" layoutY="164.0" opacity="0.5" prefHeight="433.0" prefWidth="250.0" style="-fx-background-color: black;" />
+            <Label layoutX="55.0" layoutY="177.0" prefHeight="31.0" prefWidth="62.0" text="Meal ID" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField layoutX="145.0" layoutY="177.0" prefHeight="31.0" prefWidth="124.0" style="-fx-background-color: white;" />
+            <Label layoutX="55.0" layoutY="219.0" prefHeight="31.0" prefWidth="75.0" text="Meal Price" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField layoutX="145.0" layoutY="219.0" prefHeight="31.0" prefWidth="124.0" style="-fx-background-color: white;" />
+            <JFXButton buttonType="RAISED" layoutX="105.0" layoutY="267.0" prefHeight="37.0" prefWidth="115.0" style="-fx-background-color: #ea0000;" text="Add" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="55.0" layoutY="496.0" prefHeight="31.0" prefWidth="75.0" text="Meal ID" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField layoutX="145.0" layoutY="496.0" prefHeight="31.0" prefWidth="124.0" style="-fx-background-color: white;" />
+            <JFXButton buttonType="RAISED" layoutX="105.0" layoutY="544.0" prefHeight="37.0" prefWidth="115.0" style="-fx-background-color: #ea0000;" text="Delete" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="55.0" layoutY="336.0" prefHeight="31.0" prefWidth="62.0" text="Meal ID" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField layoutX="145.0" layoutY="336.0" prefHeight="31.0" prefWidth="124.0" style="-fx-background-color: white;" />
+            <Label layoutX="55.0" layoutY="378.0" prefHeight="31.0" prefWidth="75.0" text="Meal Price" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField layoutX="145.0" layoutY="378.0" prefHeight="31.0" prefWidth="124.0" style="-fx-background-color: white;" />
+            <JFXButton buttonType="RAISED" layoutX="105.0" layoutY="426.0" prefHeight="37.0" prefWidth="115.0" style="-fx-background-color: #ea0000;" text="Modify" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="323.0" prefHeight="642.0" prefWidth="323.0" style="-fx-background-color: grey;">
+         <children>
+            <ImageView fitHeight="642.0" fitWidth="323.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../assets/ChineseMeal.jpg" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="37.0" layoutY="157.0" opacity="0.5" prefHeight="433.0" prefWidth="250.0" style="-fx-background-color: black;" />
+            <Label layoutX="55.0" layoutY="170.0" prefHeight="31.0" prefWidth="62.0" text="Meal ID" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField layoutX="145.0" layoutY="170.0" prefHeight="31.0" prefWidth="124.0" style="-fx-background-color: white;" />
+            <Label layoutX="55.0" layoutY="212.0" prefHeight="31.0" prefWidth="75.0" text="Meal Price" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField layoutX="145.0" layoutY="212.0" prefHeight="31.0" prefWidth="124.0" style="-fx-background-color: white;" />
+            <JFXButton buttonType="RAISED" layoutX="105.0" layoutY="260.0" prefHeight="37.0" prefWidth="115.0" style="-fx-background-color: #ea0000;" text="Add" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="55.0" layoutY="489.0" prefHeight="31.0" prefWidth="75.0" text="Meal ID" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField layoutX="145.0" layoutY="489.0" prefHeight="31.0" prefWidth="124.0" style="-fx-background-color: white;" />
+            <JFXButton buttonType="RAISED" layoutX="105.0" layoutY="537.0" prefHeight="37.0" prefWidth="115.0" style="-fx-background-color: #ea0000;" text="Delete" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="55.0" layoutY="329.0" prefHeight="31.0" prefWidth="62.0" text="Meal ID" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField layoutX="145.0" layoutY="329.0" prefHeight="31.0" prefWidth="124.0" style="-fx-background-color: white;" />
+            <Label layoutX="55.0" layoutY="371.0" prefHeight="31.0" prefWidth="75.0" text="Meal Price" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="15.0" />
+               </font>
+            </Label>
+            <JFXTextField layoutX="145.0" layoutY="371.0" prefHeight="31.0" prefWidth="124.0" style="-fx-background-color: white;" />
+            <JFXButton buttonType="RAISED" layoutX="105.0" layoutY="419.0" prefHeight="37.0" prefWidth="115.0" style="-fx-background-color: #ea0000;" text="Modify" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="20.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <Label alignment="BOTTOM_RIGHT" layoutX="-4.0" layoutY="616.0" prefHeight="22.0" prefWidth="317.0" text="Copyright © 2021 Scorpion™ - All rights reserved" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="280.0" layoutY="47.0" opacity="0.66" prefHeight="50.0" prefWidth="431.0" style="-fx-background-color: grey;" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="42.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="279.0" layoutY="47.0" prefHeight="50.0" prefWidth="431.0" text="BLUE               HOTEL" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="42.0" />
+         </font>
+      </Label>
+      <Label layoutX="400.0" layoutY="47.0" prefHeight="50.0" prefWidth="152.0" text="OCEAN" textFill="#253f9a">
+         <font>
+            <Font name="Times New Roman Bold" size="42.0" />
+         </font>
+      </Label>
+      <Label layoutX="94.0" layoutY="13.0" prefHeight="27.0" prefWidth="107.0" text="+94 769 807 626 " textFill="WHITE">
+         <font>
+            <Font name="Baskerville Old Face" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="22.0" fitWidth="20.0" layoutX="70.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/TelephoneLogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="791.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/LinkedinLogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="830.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/TwitterLogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="869.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/InstagramLogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="905.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/FacebookLogo.png" />
+         </image>
+      </ImageView>
+      <JFXButton buttonType="RAISED" layoutX="158.0" layoutY="111.0" prefHeight="33.0" prefWidth="124.0" style="-fx-background-color: black;" text="HOME" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="291.0" layoutY="111.0" prefHeight="33.0" prefWidth="132.0" style="-fx-background-color: black;" text="ABOUT US" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="433.0" layoutY="111.0" prefHeight="33.0" prefWidth="132.0" style="-fx-background-color: black;" text="SERVICES" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="573.0" layoutY="111.0" prefHeight="33.0" prefWidth="132.0" style="-fx-background-color: black;" text="GALLERY" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="711.0" layoutY="111.0" prefHeight="33.0" prefWidth="132.0" style="-fx-background-color: black;" text="CONTACT US" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

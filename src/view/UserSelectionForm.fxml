@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="frontPageContext" prefHeight="596.0" prefWidth="1232.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.UserSelectionFormController">
+   <children>
+      <ImageView fitHeight="615.0" fitWidth="1232.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/UIBackground(2).jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="userSelectionContext" layoutX="478.0" layoutY="134.0" prefHeight="429.0" prefWidth="276.0" style="-fx-background-color: TRANSPARENT;">
+         <children>
+            <AnchorPane layoutY="50.0" prefHeight="379.0" prefWidth="276.0" style="-fx-background-color: #070506; -fx-background-radius: 20;" />
+            <AnchorPane layoutX="111.0" layoutY="25.0" prefHeight="51.0" prefWidth="55.0" style="-fx-background-color: #ffffff;" />
+            <ImageView fitHeight="82.0" fitWidth="88.0" layoutX="97.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/UserLogo.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="98.0" layoutY="95.0" prefHeight="70.0" prefWidth="82.0" text="Login" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="32.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="btnAsAdmin" buttonType="RAISED" layoutX="20.0" layoutY="182.0" onAction="#openLoginForm" prefHeight="40.0" prefWidth="238.0" style="-fx-background-color: #E90405; -fx-background-radius: 30;" text="Continue as Admin" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btnAsReceptionist" buttonType="RAISED" layoutX="20.0" layoutY="241.0" onAction="#openLoginForm" prefHeight="40.0" prefWidth="238.0" style="-fx-background-color: #E90405; -fx-background-radius: 30;" text="Continue as Receptionist" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="37.0" layoutY="331.0" prefHeight="22.0" prefWidth="82.0" text="CONTACT US" textFill="#b6bdc6" underline="true">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="37.0" layoutY="364.0" prefHeight="22.0" prefWidth="82.0" text="SERVICES" textFill="#b6bdc6" underline="true">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="156.0" layoutY="331.0" prefHeight="22.0" prefWidth="95.0" text="ABOUT US" textFill="#b6bdc6" underline="true">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="156.0" layoutY="364.0" prefHeight="22.0" prefWidth="95.0" text="FAQ" textFill="#b6bdc6" underline="true">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label alignment="BOTTOM_RIGHT" layoutX="902.0" layoutY="570.0" prefHeight="22.0" prefWidth="317.0" text="Copyright © 2021 Scorpion™ - All rights reserved" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="1062.0" layoutY="13.0" opacity="0.42" prefHeight="22.0" prefWidth="159.0" style="-fx-background-color: #b6d2f1;" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="1065.0" layoutY="13.0" prefHeight="22.0" prefWidth="152.0" text="BLUE               HOTEL" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1107.0" layoutY="15.0" prefHeight="14.0" prefWidth="55.0" text="OCEAN" textFill="#4d67c6">
+         <font>
+            <Font name="Times New Roman Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="475.0" layoutY="35.0" prefHeight="70.0" prefWidth="283.0" text="WELCOME!" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="59.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

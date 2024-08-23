@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="bookingFormContext" prefHeight="469.0" prefWidth="791.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerDetailFormController">
+   <children>
+      <AnchorPane layoutX="474.0" opacity="0.3" prefHeight="469.0" prefWidth="317.0" style="-fx-background-color: black;" />
+      <Label alignment="CENTER" layoutX="559.0" layoutY="14.0" prefHeight="39.0" prefWidth="148.0" text="Hotel Booking" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="495.0" layoutY="55.0" prefHeight="21.0" prefWidth="138.0" text="Name*" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtFirstName" focusColor="WHITE" layoutX="488.0" layoutY="76.0" prefHeight="31.0" prefWidth="138.0" promptText="First Name" style="-fx-background-color: white;">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </JFXTextField>
+      <JFXTextField fx:id="txtLastName" focusColor="WHITE" layoutX="639.0" layoutY="76.0" prefHeight="31.0" prefWidth="138.0" promptText="Last Name" style="-fx-background-color: white;">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </JFXTextField>
+      <Label layoutX="495.0" layoutY="111.0" prefHeight="21.0" prefWidth="138.0" text="E-mail*" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtEmail" focusColor="WHITE" layoutX="488.0" layoutY="132.0" prefHeight="31.0" prefWidth="289.0" promptText="ex : johncarter@gmail.com" style="-fx-background-color: white;">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </JFXTextField>
+      <Label layoutX="495.0" layoutY="167.0" prefHeight="21.0" prefWidth="138.0" text="Contact Number*" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtContact" focusColor="WHITE" layoutX="488.0" layoutY="188.0" prefHeight="31.0" prefWidth="289.0" promptText="ex : +94 112 121 212" style="-fx-background-color: white;">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </JFXTextField>
+      <Label layoutX="495.0" layoutY="223.0" prefHeight="21.0" prefWidth="138.0" text="NIC / Passport Number*" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtId" focusColor="WHITE" layoutX="488.0" layoutY="244.0" prefHeight="31.0" prefWidth="289.0" promptText="ex : 200078831357" style="-fx-background-color: white;">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </JFXTextField>
+      <JFXTextArea fx:id="txtAddress" focusColor="WHITE" layoutX="488.0" layoutY="300.0" prefHeight="58.0" prefWidth="289.0" style="-fx-background-color: white;">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </JFXTextArea>
+      <Label layoutX="495.0" layoutY="279.0" prefHeight="21.0" prefWidth="138.0" text="Address*" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="495.0" layoutY="362.0" prefHeight="21.0" prefWidth="138.0" text="Number of Guests*" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="customerSaveButton" alignment="CENTER" buttonType="RAISED" layoutX="635.0" layoutY="411.0" onAction="#saveAndProceed" prefHeight="45.0" prefWidth="127.0" style="-fx-background-color: #ff5500;" text="Find a Room" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="txtGuestCount" focusColor="WHITE" layoutX="488.0" layoutY="383.0" prefHeight="31.0" prefWidth="85.0" promptText="0" style="-fx-background-color: white;">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </JFXTextField>
+   </children>
+</AnchorPane>

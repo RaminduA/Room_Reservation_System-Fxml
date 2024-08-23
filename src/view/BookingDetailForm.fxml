@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTimePicker?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="462.0" prefWidth="791.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BookingDetailFormController">
+   <children>
+      <AnchorPane opacity="0.3" prefHeight="462.0" prefWidth="334.0" style="-fx-background-color: black;" />
+      <Label alignment="CENTER" layoutX="92.0" layoutY="14.0" prefHeight="39.0" prefWidth="148.0" text="Hotel Booking" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="62.0" prefHeight="21.0" prefWidth="138.0" text="Check In*" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="83.0" prefHeight="21.0" prefWidth="138.0" text="Date*" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </Label>
+      <JFXDatePicker fx:id="txtCheckInDate" defaultColor="BLACK" layoutX="14.0" layoutY="104.0" prefHeight="31.0" prefWidth="148.0" style="-fx-background-color: white;">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </JFXDatePicker>
+      <Label layoutX="188.0" layoutY="83.0" prefHeight="21.0" prefWidth="138.0" text="Time*" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </Label>
+      <JFXTimePicker fx:id="txtCheckInTime" defaultColor="BLACK" layoutX="181.0" layoutY="104.0" prefHeight="31.0" prefWidth="138.0" style="-fx-background-color: white;">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </JFXTimePicker>
+      <Label layoutX="14.0" layoutY="146.0" prefHeight="21.0" prefWidth="138.0" text="Check Out*" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="167.0" prefHeight="21.0" prefWidth="138.0" text="Date*" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </Label>
+      <JFXDatePicker fx:id="txtCheckOutDate" defaultColor="BLACK" layoutX="14.0" layoutY="188.0" prefHeight="31.0" prefWidth="148.0" style="-fx-background-color: white;">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </JFXDatePicker>
+      <Label layoutX="188.0" layoutY="167.0" prefHeight="21.0" prefWidth="138.0" text="Time*" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </Label>
+      <JFXTimePicker fx:id="txtCheckOutTime" defaultColor="BLACK" layoutX="181.0" layoutY="188.0" prefHeight="31.0" prefWidth="138.0" style="-fx-background-color: white;">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </JFXTimePicker>
+      <Label layoutX="14.0" layoutY="237.0" prefHeight="21.0" prefWidth="138.0" text="Room Type*" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtRoomType" focusColor="WHITE" layoutX="14.0" layoutY="265.0" prefHeight="31.0" prefWidth="85.0" style="-fx-background-color: white;">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </JFXTextField>
+      <JFXButton fx:id="bookingSaveButton" alignment="CENTER" buttonType="RAISED" layoutX="173.0" layoutY="403.0" onAction="#saveAndProceed" prefHeight="45.0" prefWidth="127.0" style="-fx-background-color: #ff5500;" text="Pick a Room" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="19.0" />
+         </font>
+      </JFXButton>
+      <AnchorPane fx:id="roomsTableContext" layoutX="397.0" prefHeight="462.0" prefWidth="394.0" style="-fx-background-color: transparent;" />
+   </children>
+</AnchorPane>

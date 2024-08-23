@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="634.0" prefWidth="1256.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminDashboardFormController">
+   <children>
+      <AnchorPane fx:id="dashboardContext" layoutX="287.0" prefHeight="642.0" prefWidth="969.0" style="-fx-background-color: black;">
+         <children>
+            <ImageView fitHeight="642.0" fitWidth="988.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/UIBackground(1).jpg" />
+               </image>
+            </ImageView>
+            <Label alignment="BOTTOM_RIGHT" layoutX="-2.0" layoutY="618.0" prefHeight="22.0" prefWidth="317.0" text="Copyright © 2021 Scorpion™ - All rights reserved" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="261.0" layoutY="38.0" opacity="0.42" prefHeight="50.0" prefWidth="431.0" style="-fx-background-color: #b6d2f1;" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="42.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="260.0" layoutY="38.0" prefHeight="50.0" prefWidth="431.0" text="BLUE               HOTEL" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold" size="42.0" />
+               </font>
+            </Label>
+            <Label layoutX="381.0" layoutY="38.0" prefHeight="50.0" prefWidth="152.0" text="OCEAN" textFill="#4d67c6">
+               <font>
+                  <Font name="Times New Roman Bold" size="42.0" />
+               </font>
+            </Label>
+            <JFXTextField alignment="BASELINE_LEFT" focusColor="WHITE" layoutX="721.0" layoutY="98.0" opacity="0.91" prefHeight="31.0" prefWidth="206.0" style="-fx-background-color: #ff5500;" unFocusColor="#ff5500" AnchorPane.bottomAnchor="513.0" AnchorPane.leftAnchor="721.0" AnchorPane.rightAnchor="42.0" AnchorPane.topAnchor="98.0">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </JFXTextField>
+            <ImageView fitHeight="27.0" fitWidth="20.0" layoutX="903.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/SearchLogo.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="75.0" layoutY="4.0" prefHeight="27.0" prefWidth="107.0" text="+94 769 807 626 " textFill="WHITE">
+               <font>
+                  <Font name="Baskerville Old Face" size="15.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="22.0" fitWidth="20.0" layoutX="51.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/TelephoneLogo.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="772.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/LinkedinLogo.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="811.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/TwitterLogo.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="850.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/InstagramLogo.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="886.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/FacebookLogo.png" />
+               </image>
+            </ImageView>
+            <JFXButton buttonType="RAISED" layoutX="17.0" layoutY="99.0" prefHeight="33.0" prefWidth="124.0" text="HOME" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="17.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="140.0" layoutY="99.0" prefHeight="33.0" prefWidth="132.0" text="ABOUT US" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="17.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="275.0" layoutY="99.0" prefHeight="33.0" prefWidth="132.0" text="SERVICES" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="17.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="407.0" layoutY="99.0" prefHeight="33.0" prefWidth="132.0" text="GALLERY" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="17.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="545.0" layoutY="99.0" prefHeight="33.0" prefWidth="132.0" text="CONTACT US" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="17.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="642.0" prefWidth="287.0" style="-fx-background-color: #2D323E;">
+         <children>
+            <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" contentDisplay="CENTER" layoutY="182.0" onAction="#openRoomManagingSection" opacity="0.88" prefHeight="66.0" prefWidth="287.0" ripplerFill="#24262c" text="Rooms" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets left="60.0" />
+               </padding>
+            </JFXButton>
+            <ImageView fitHeight="27.0" fitWidth="29.0" layoutX="22.0" layoutY="202.0" opacity="0.95" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/RoomLogo.png" />
+               </image>
+            </ImageView>
+            <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" layoutY="249.0" onAction="#openMealSection" opacity="0.88" prefHeight="66.0" prefWidth="287.0" ripplerFill="#24262c" text="Meal Packages" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <padding>
+                  <Insets left="60.0" />
+               </padding>
+            </JFXButton>
+            <ImageView fitHeight="23.0" fitWidth="23.0" layoutX="24.0" layoutY="271.0" opacity="0.95" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/MealPlanLogo.png" />
+               </image>
+            </ImageView>
+            <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" layoutY="315.0" onAction="#openIncomeReports" opacity="0.88" prefHeight="66.0" prefWidth="287.0" ripplerFill="#24262c" text="Income Reports" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <padding>
+                  <Insets left="60.0" />
+               </padding>
+            </JFXButton>
+            <ImageView fitHeight="27.0" fitWidth="29.0" layoutX="22.0" layoutY="334.0" opacity="0.95" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/IncomeReportLogo(1).png" />
+               </image>
+            </ImageView>
+            <Label layoutX="11.0" layoutY="612.0" opacity="0.85" prefHeight="21.0" prefWidth="94.0" text="VERSION 1.0.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="logoutButton" alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" layoutX="71.0" layoutY="550.0" onAction="#backToUserSelect" prefHeight="33.0" prefWidth="145.0" ripplerFill="#24262c" style="-fx-background-color: #222931;" text="Logout" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </JFXButton>
+            <ImageView fitHeight="44.0" fitWidth="33.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#loadHomePage" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/HomeButton.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
